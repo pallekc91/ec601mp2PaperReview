@@ -1,7 +1,7 @@
 # ec601mp2PaperReview
 
 ## Introduction
-**Multi-View 3D Object detection network for autonomous driving**
+__Multi-View 3D Object detection network for autonomous driving__\
 A proposed high accuracy 3D multi-view object detection mechanism for autonomous driving. A system called MV3D (Multi view 3D) network which takes both LIDAR bird’s eye and point cloud and RGB image as input and predicts 3D boxes around objects including their orientation. It consists of 2 subnetworks, first which generates the 3D object proposal and the next for combining features from multiple views. It was tested on the KITTI benchmark and it outperformed the state-of-the-art by around 25% in the task of 3D localization and detection. It also performed 15% better against various LIDAR based state-of-the-art methods in 2D recognition. 
 In comparison with general image-based methods, which typically generate 3D boxes and then perform region-based recognition using R-CNNs, a combination of LIDAR and image-based methods perform better in 3D object prediction. The reason for going for this method was to perform region-based feature fusion. 
 
