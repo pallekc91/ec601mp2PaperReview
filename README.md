@@ -12,7 +12,10 @@ For region based fusion network, modal data of different resolution coming from 
 
 The implementation of the base network was built on 16-layer VGG net with some modifications in channels, pooling layers and addition of fully connected layers and up-sampling layers. 
 
-## Summary of References
+## References
+Multi-View 3D Object Detection Network for Autonomous Driving
+Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
 
 ## Analysis
 Since the model is built on a well-established VGG layer, and it leverages the information from both LIDAR and RGB images and doesn’t stop at just 3D proposal from LIDAR, it further uses deep fusion which is better than early and late fusion to fuse features from different projections and runs a regression on the fused features to generate 3D representation of objects, I would regard this as an absolute strength of the model. Further, using this model and testing their results against the KITTI benchmark in predicting 2D object from the image and outperforming state-of-the-art models like Mono3D, 3DOP, VeloFCN would also prove the robustness and scalability of the model. The way they simplified representation of 3D boxes using 8-point corners instead of a 24D complex representation is also something to notice.
