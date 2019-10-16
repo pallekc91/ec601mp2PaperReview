@@ -13,8 +13,8 @@ For region based fusion network, modal data of different resolution coming from 
 The implementation of the base network was built on 16-layer VGG net with some modifications in channels, pooling layers and addition of fully connected layers and up-sampling layers. 
 
 ## References
-Multi-View 3D Object Detection Network for Autonomous Driving
-Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia 
+Multi-View 3D Object Detection Network for Autonomous Driving\
+Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia\
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
 
 ## Analysis
