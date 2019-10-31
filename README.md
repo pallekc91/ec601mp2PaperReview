@@ -27,3 +27,36 @@ Since the performance of the model against state-of-the-art techniques is verifi
 
 ## Conclusion
 The proposed model ranks better against the state-of-the-art techniques in 2D and 3D object recognition for autonomous driving given the discussed parameters. Its architecture optimization and application of various techniques like Multiview ROI pooling, deep fusion gives it an edge over the other competitive techniques. However, further information regarding some of the most important criteria to be considered for the application needs to be considered before concluding the adoptability of the technique. 
+
+## Review of team's projects
+### Future of Machine Learning Languages by Zhou Yuhao
+#### Summary 
+The author analysed and compared various machine learning languages like Python, Swift, Julia and Rust. He used various metrics for the comparison like learning difficulty, performance, libraries, parallel, mobile embedding and many more. On the whole it is a thorough research on the 4 ML languages
+#### I Learned
+That though python is still the most used ML language, its limitations are creating scope for development of many other ML languages and depending on the use case, moving to a different ML language like Julia or Swift can actually be considered.
+
+### Snorkel: Another Alternative for Weak Supervision in Python by Yue Lie
+#### Summary 
+The author talks about the process of labelling a data using Snorkle which is a cost effective solution for a weak supervision ML problem
+#### I Learned
+I was able to understand the examples of unsupervised problems or rather weak supervised problem according to the user, and I also learned that snorkel is a good tool to label data cost effectively and mitigate the issue. Snorkle also has multiple use cases mentioned for different type of ML problems like information extraction, recommendation system etc.
+
+### Difference between human and computer brain by Chen Linfeng
+#### Summary
+The author starts with identifying the difference between human brain and the current neural network focussing on the training of human brain and the neural network, the inputs coming from various sources and that the human brain can also do mistakes. He then concludes saying that we need to train the models not only using the APIs given by the companies, but also we need to build on top of them for better performance
+#### I Learned
+This was an exciting read, I learnt the difference of computer and human brain and that there is still a long way to go to mimic a human brain. Also the importance of building on top of the existing foundation for better performance.
+
+### State of the art of objects segmentation methods based on machine learning algorithms by Zhan Bo
+#### Summary
+The author discusses various state of the art methods made by various people for object segmentation using algorithms like support vector machines, contour seed pairs learning based networks, orthogonal gamma distribution-based machine learning approach and many more
+#### I learned
+This review introduced me to object segmentation and the different approaches taken to do the same which were all alien to me before
+
+### A Survey of dimensionality reduction techniques by Samyak Jain
+#### Summary
+The author extensively introduced many dimensionality reduction algorithms in practice and categorized them according to their shape of the function. He mainly talks about non-linear dimensionality techniques which can be applied on unsupervised problems and concludes that random projections is the best dimensionality reduction algorithm that can be applied on unsupervised problems. 
+#### I Learned
+The taxonomy of dimensionality reduction algorithms gave ma good perspective of the available algorithms and their application based on the input function. This also introduced me to random projections and the advantages of it applying it on unsupervised problems. It encourages me to use random projections in the future
+
+
